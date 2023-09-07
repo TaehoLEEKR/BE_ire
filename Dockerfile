@@ -20,4 +20,4 @@ RUN ./gradlew clean build
 
 ENV DATABASE_URL=jdbc:mariadb://mariadb/camping
 
-CMD ["java", "-jar", "-Dspring.profiles.active=prod", "application.jar"]
+CMD ["java", "-jar", "-Dspring.profiles.active=prod", "application.jar" ]
